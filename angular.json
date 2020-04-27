@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ivan"
+    }
+  },
+  "defaultProject": "ivan",
+  "cli": {
+    "analytics": "05acbad9-f938-40e5-ab4d-02e6fd4cf3fa"
+  }
 }
