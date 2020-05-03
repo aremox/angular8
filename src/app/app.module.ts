@@ -12,16 +12,13 @@ import { CorreosRecibidosComponent } from './Views/correos-recibidos/correos-rec
 import { LoginComponent } from './Components/login/login.component';
 import { HttpClientModule } from '@angular/common/http';
 import {
-  GoogleApiModule, 
-  GoogleApiService, 
-  GoogleAuthService, 
-  NgGapiClientConfig, 
+  GoogleApiModule,
+  NgGapiClientConfig,
   NG_GAPI_CONFIG,
-  GoogleApiConfig
 } from "ng-gapi";
 
 let gapiClientConfig: NgGapiClientConfig = {
-  client_id: "943109885897-tbv5puaeibth31o7c4j9o2me9gdah14u.apps.googleusercontent.com",
+  client_id: "395684135333-7cs6mldgfgr2q531bu51el0j4hdosv0s.apps.googleusercontent.com",
   discoveryDocs: ["https://analyticsreporting.googleapis.com/$discovery/rest?version=v4"],
   ux_mode: "popup",
   redirect_uri: "http://localhost:4200/loged",

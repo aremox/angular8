@@ -1,4 +1,4 @@
-import { Injectable, NgZone  } from '@angular/core';
+import { Injectable, NgZone } from "@angular/core";
 import * as _ from "lodash";
 import { GoogleAuthService } from "ng-gapi/lib/GoogleAuthService";
 import GoogleUser = gapi.auth2.GoogleUser;
@@ -7,7 +7,6 @@ import GoogleUser = gapi.auth2.GoogleUser;
   providedIn: 'root'
 })
 export class LoginService {
-
   public static readonly SESSION_STORAGE_KEY: string = "usuarioGoogle";
 
   profile: any = undefined;
@@ -72,5 +71,4 @@ export class LoginService {
   private signInErrorHandler(err) {
     console.warn(err);
   }
-
-}
+} 

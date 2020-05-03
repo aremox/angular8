@@ -11,9 +11,9 @@ export class AvisosService {
   constructor() {
     this.mensaje = '';
     this.visible = false;
-   }
+  }
 
-   showMenssage(mensaje: string){
+  showMenssage(mensaje: string){
     this.mensaje = mensaje;
     this.visible = true;
     this.waitToHide();
@@ -23,7 +23,7 @@ export class AvisosService {
     this.visible = false;
     this.mensaje = '';
   }
-  
+
   waitToHide(){
     setTimeout(() => {
       this.hideMenssage();
