@@ -44,14 +44,14 @@ export class NuevoCorreoComponent implements OnInit {
         correo.leido= false;
         correo.emisor= 'correoEmisor1@openWebinar.inv';
 
-        alert("Correo Enviado \nEliminamos el formulario");
+       // alert("Correo Enviado \nEliminamos el formulario");
         this.onReset();
         this.servicioAvisos.showMenssage(`Correo enviado a ${correo.emisor}`);
     }
 
     onReset() {
-        this.submitted = false;
-        this.nuevoCorreo.reset();
+    //    this.submitted = false;
+    //    this.nuevoCorreo.reset();
         this.accionRealizada.emit();
     }
 
