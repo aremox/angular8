@@ -12,9 +12,12 @@ import { CorreosRecibidosComponent } from './Views/correos-recibidos/correos-rec
 import { LoginComponent } from './Components/login/login.component';
 import { HttpClientModule } from '@angular/common/http';
 import {
-  GoogleApiModule,
-  NgGapiClientConfig,
+  GoogleApiModule, 
+  GoogleApiService, 
+  GoogleAuthService, 
+  NgGapiClientConfig, 
   NG_GAPI_CONFIG,
+  GoogleApiConfig
 } from "ng-gapi";
 
 let gapiClientConfig: NgGapiClientConfig = {
