@@ -20,9 +20,10 @@ export class LoginService {
   }
 
   private setUser(user: any){
-    this.profile = user['w3'];
-    this.tokenUser = user['Zi'].access_token;
-    this.userId = this.profile['Eea'];
+    console.log(user['Qt'])
+    this.profile = user['Qt'];
+    this.tokenUser = user['tc'].access_token;
+    this.userId = this.profile['ZU'];
   }
 
   public getSessionUser(): GoogleUser {
